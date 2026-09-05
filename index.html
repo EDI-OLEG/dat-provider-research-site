@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DAT Provider Research</title>
+<meta name="description" content="Public-source provider economics and realized outcomes for digital-asset treasury decisions.">
+<meta name="robots" content="index,follow">
+<style>
+:root{
+  --bg:#0b1020;
+  --panel:#121a30;
+  --text:#eef2ff;
+  --muted:#aab4d0;
+  --line:#263352;
+  --accent:#89a8ff;
+  --accent2:#b6c6ff;
+  --max:1080px
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:linear-gradient(180deg,#08101e 0%,#0b1020 55%,#0d1425 100%);
+  color:var(--text);
+  line-height:1.6
+}
+a{color:var(--accent2)}
+.wrap{max-width:var(--max);margin:auto;padding:0 24px}
+header{
+  padding:28px 0;
+  border-bottom:1px solid rgba(255,255,255,.08);
+  position:sticky;
+  top:0;
+  backdrop-filter:blur(14px);
+  background:rgba(8,16,30,.86);
+  z-index:5
+}
+nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-weight:800;letter-spacing:.2px}
+.navlinks{display:flex;gap:22px;flex-wrap:wrap;font-size:14px}
+.navlinks a{text-decoration:none;color:var(--muted)}
+.hero{padding:96px 0 72px}
+.eyebrow{
+  color:var(--accent);
+  font-weight:700;
+  font-size:14px;
+  text-transform:uppercase;
+  letter-spacing:.16em
+}
+h1{
+  font-size:clamp(42px,7vw,78px);
+  line-height:1.02;
+  margin:18px 0 22px;
+  max-width:900px
+}
+.lede{
+  font-size:clamp(19px,2.7vw,25px);
+  color:var(--muted);
+  max-width:820px
+}
+.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}
+.btn{
+  display:inline-block;
+  padding:13px 18px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:700;
+  border:1px solid var(--line)
+}
+.primary{background:var(--text);color:#0b1020}
+.secondary{color:var(--text);background:rgba(255,255,255,.03)}
+section{padding:64px 0;border-top:1px solid rgba(255,255,255,.07)}
+h2{font-size:34px;margin:0 0 18px}
+h3{margin-top:0}
+.muted{color:var(--muted)}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+  margin-top:28px
+}
+.card{
+  border:1px solid var(--line);
+  background:rgba(18,26,48,.72);
+  border-radius:16px;
+  padding:24px
+}
+ul{padding-left:20px}
+li{margin:7px 0}
+.method{
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  padding:18px;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:#090e1b;
+  color:#d7e1ff;
+  overflow:auto
+}
+.sample{border-left:3px solid var(--accent);padding-left:24px}
+.price{font-size:42px;font-weight:800;margin:6px 0}
+footer{padding:44px 0 70px;color:var(--muted);font-size:14px}
+@media(max-width:760px){
+  .grid{grid-template-columns:1fr}
+  .navlinks{display:none}
+  .hero{padding-top:70px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="wrap">
+<nav>
+<div class="brand">DAT Provider Research</div>
+<div class="navlinks">
+<a href="#scope">Scope</a>
+<a href="#method">Method</a>
+<a href="#sample">Public sample</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</div>
+</header>
+
+<main>
+
+<div class="wrap hero">
+<div class="eyebrow">Public-source evidence for DAT provider decisions</div>
+
+<h1>Provider economics, normalized. Realized outcomes, sourced.</h1>
+
+<p class="lede">
+DAT Provider Research assembles bounded, source-linked evidence packs for
+public-company management, Board and counsel processes reviewing
+digital-asset treasury provider relationships.
+</p>
+
+<div class="actions">
+<a class="btn primary"
+   href="mailto:oleg@datproviderresearch.com?subject=DAT%20Provider%20Research%20scope">
+Request scope
+</a>
+
+<a class="btn secondary" href="#sample">
+View public sample
+</a>
+</div>
+</div>
+
+
+<section id="scope">
+<div class="wrap">
+
+<h2>What the evidence pack covers</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Current economics</h3>
+<ul>
+<li>Provider role and current agreement structure</li>
+<li>Same-role public comparables</li>
+<li>Fee denominator and payment mechanics</li>
+<li>Actual disclosed expense</li>
+<li>Equity and warrant economics</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Governance & outcomes</h3>
+<ul>
+<li>Related-party, ownership and Board relationship facts</li>
+<li>Term, renewal and termination mechanics</li>
+<li>Fee reductions, disputes and amendments</li>
+<li>Realized exits, internalizations and replacements</li>
+<li>Explicit non-comparability and source map</li>
+</ul>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<section id="method">
+<div class="wrap">
+
+<h2>Method</h2>
+
+<p class="muted">
+We do not collapse unlike provider roles into a single “market rate.”
+</p>
+
+<div class="method">
+ROLE → CURRENTNESS → DENOMINATOR → PAYMENT → ACTUAL EXPENSE → TERM → EXIT → GOVERNANCE → REALIZED OUTCOMES → NON-COMPARABILITY → SOURCES
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Public sources only</h3>
+<p class="muted">
+Primary filings, agreements, issuer disclosures and other attributable
+public materials are linked back to source.
+</p>
+</div>
+
+<div class="card">
+<h3>Bounded output</h3>
+<p class="muted">
+One provider/agreement family, a small same-role comparator set and
+contextual realized-outcome controls.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<section id="sample">
+<div class="wrap">
+
+<h2>Public mini-sample</h2>
+
+<div class="sample">
+
+<h3>Forum Markets / Electric Treasury Edge — realized provider exit</h3>
+
+<p class="muted">
+Public filings disclose a provider relationship with:
+</p>
+
+<ul>
+<li>2% annual NAV management fee</li>
+<li>$2 million annual minimum fee</li>
+<li>Five-year initial term</li>
+<li>Early-exit economics tied to remaining compensation</li>
+<li>May 2026 termination</li>
+<li>$1.5 million June 2026 payment satisfying outstanding fees/expenses plus an agreed portion of liquidated damages</li>
+</ul>
+
+<p>
+Sources:
+<a href="https://www.sec.gov/Archives/edgar/data/1690080/000121390025085321/ea025631201ex10-1_ethzilla.htm"
+   target="_blank"
+   rel="noopener noreferrer">
+Asset Management Agreement
+</a>
+·
+<a href="https://www.sec.gov/Archives/edgar/data/1690080/000121390026090100/ea0301343-10q_forum.htm"
+   target="_blank"
+   rel="noopener noreferrer">
+June 2026 filing
+</a>
+</p>
+
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="wrap">
+
+<h2>What it is not</h2>
+
+<div class="grid">
+
+<div class="card">
+<ul>
+<li>No legal advice</li>
+<li>No investment advice</li>
+<li>No fairness or arm's-length opinion</li>
+</ul>
+</div>
+
+<div class="card">
+<ul>
+<li>No provider selection, retention or termination recommendation</li>
+<li>No securities valuation</li>
+<li>No audit certification</li>
+</ul>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<section id="contact">
+<div class="wrap">
+
+<h2>Founding validation scope</h2>
+
+<p class="muted">
+One bounded provider/agreement family · up to five primary same-role
+public comparables · up to three contextual or realized-outcome controls ·
+one source-linked evidence pack.
+</p>
+
+<div class="price">$4,900 fixed / 72 hours</div>
+
+<p>
+<a class="btn primary"
+   href="mailto:oleg@datproviderresearch.com?subject=DAT%20Provider%20Research%20scope">
+oleg@datproviderresearch.com
+</a>
+</p>
+
+</div>
+</section>
+
+</main>
+
+<footer>
+<div class="wrap">
+<strong>DAT Provider Research</strong><br>
+Public-source research only. No legal, fairness, fiduciary or investment opinion.
+</div>
+</footer>
+
+</body>
+</html>
