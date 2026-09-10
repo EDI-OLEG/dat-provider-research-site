@@ -6,10 +6,10 @@
 <title>DAT Provider Research</title>
 <meta name="description" content="Public-source provider economics and realized outcomes for digital-asset treasury decisions.">
 <meta name="robots" content="index,follow">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'none'; img-src 'none'; font-src 'none'; connect-src 'none'; media-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
 <style>
 :root{
-  --bg:#0b1020;
-  --panel:#121a30;
   --text:#eef2ff;
   --muted:#aab4d0;
   --line:#263352;
@@ -27,6 +27,20 @@ body{
   line-height:1.6
 }
 a{color:var(--accent2)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.skip-link{
+  position:absolute;
+  left:12px;
+  top:12px;
+  transform:translateY(-200%);
+  padding:10px 14px;
+  border-radius:8px;
+  background:var(--text);
+  color:#0b1020;
+  font-weight:700;
+  z-index:20
+}
+.skip-link:focus{transform:translateY(0)}
 .wrap{max-width:var(--max);margin:auto;padding:0 24px}
 header{
   padding:28px 0;
@@ -106,14 +120,19 @@ footer{padding:44px 0 70px;color:var(--muted);font-size:14px}
   .navlinks{display:none}
   .hero{padding-top:70px}
 }
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+}
 </style>
 </head>
 
 <body>
 
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
 <header>
 <div class="wrap">
-<nav>
+<nav aria-label="Primary">
 <div class="brand">DAT Provider Research</div>
 <div class="navlinks">
 <a href="#scope">Scope</a>
@@ -125,7 +144,7 @@ footer{padding:44px 0 70px;color:var(--muted);font-size:14px}
 </div>
 </header>
 
-<main>
+<main id="main-content" tabindex="-1">
 
 <div class="wrap hero">
 <div class="eyebrow">Public-source evidence for DAT provider decisions</div>
