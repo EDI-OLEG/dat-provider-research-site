@@ -31,44 +31,55 @@ Interpretation: the broad company query is small in absolute traffic but commerc
    - Target page: `compare-dat-management-agreements.html`.
    - Commercial route: comparison → scope normalization → currentness → `$4,900 fixed / 72 hours` stress test.
 
-3. **digital asset treasury fees** / **digital asset treasury management fees** / **bitcoin treasury management fees**
+3. **Board review digital asset treasury provider agreement** / **CFO digital asset treasury fee review** / **DAT provider economics review**
+   - Intent: buyer-side decision support rather than general category education.
+   - Target page: `board-cfo-dat-provider-review.html`.
+   - Conversion route: buyer role → decision trigger → four-fact intake → `$4,900 fixed / 72 hours` stress test.
+   - Keep this page focused on decision record and deliverables, not generic DAT SEO.
+
+4. **digital asset treasury fees** / **digital asset treasury management fees** / **bitcoin treasury management fees**
    - Intent: compare provider compensation.
    - Target page: `guide-dat-provider-fees.html`
-   - Required vocabulary: asset-based fee, AUM, denominator, performance fee, high-water mark, warrants, equity compensation, expense reimbursement.
+   - Required vocabulary: asset-based fee, AUM, denominator, performance fee, high-water mark, warrants, equity compensation, success fees, expense reimbursement.
 
-4. **digital asset treasury termination** / **asset management agreement termination fee** / **digital asset treasury exit economics**
+5. **digital asset treasury termination** / **asset management agreement termination fee** / **digital asset treasury exit economics**
    - Intent: understand cost and mechanics of changing a provider.
    - Target page: `guide-dat-provider-exit-economics.html`
    - Supporting cases: BitMine/Ethereum Tower, AlphaTON/DWF, Upexi/GSR, AVAX One/Hivemind, Mango/Cube, CEA/10X, SharpLink, CleanCore, realized outcomes.
 
-5. **digital asset treasury adviser agreement** / **related party digital asset treasury adviser**
+6. **digital asset treasury adviser agreement** / **related party digital asset treasury adviser**
    - Intent: governance and comparability review.
    - Target page: `guide-related-party-dat-agreements.html`
    - Supporting cases: AVAX One / Hivemind; Solana Company / Pantera / Summer; BitMine strategic-advisor layer.
 
-6. **digital asset treasury provider** / **digital asset treasury manager** / **digital asset treasury adviser**
+7. **digital asset treasury provider** / **digital asset treasury manager** / **digital asset treasury adviser**
    - Intent: category discovery and vendor/role understanding.
    - Target page: homepage + FAQ + glossary.
 
 ### P1 — broad discovery with commercial routing value
 
-7. **digital asset treasury companies** / **digital asset treasury company** / **list of digital asset treasury companies**
+8. **digital asset treasury companies** / **digital asset treasury company** / **list of digital asset treasury companies**
    - Intent: category discovery, company examples, list / universe research.
    - Target page: `digital-asset-treasury-companies.html`.
    - Differentiation: provider-economics list, not a holdings leaderboard.
-   - Internal route: Companies → Comparison → Management Agreements → Provider Fees → Exit Economics → Related-Party Governance → $4,900 Stress Test.
+   - Internal route: Companies → Comparison → Management Agreements → Provider Fees → Exit Economics → Related-Party Governance → Board/CFO review → $4,900 Stress Test.
 
-8. **corporate bitcoin treasury management** / **bitcoin treasury manager** / **bitcoin treasury advisor**
+9. **corporate bitcoin treasury management** / **bitcoin treasury manager** / **bitcoin treasury advisor**
    - Intent is mixed between strategy, operations and outsourced management.
    - Use supporting language on the homepage and fee/agreement guides, but do not let this broaden the product into custody/accounting/software.
 
-9. **digital asset treasury strategy** / **crypto treasury management**
+10. **digital asset treasury strategy** / **crypto treasury management**
    - Broad informational/operational intent. Current SERPs skew toward strategy, custody, payments, accounting and treasury software.
    - Do not make this the homepage primary keyword. Use only for context pages that clearly narrow to provider-contract economics.
 
 ### P2 — company / agreement / event long-tail
 
 Current source-backed targets:
+
+- **VisionWave CTMG crypto treasury agreement** / **VisionWave 17 BTC success fee** / **VisionWave Crypto Treasury Management Group** / **VisionWave digital asset treasury consultant**
+  - Target: `case-visionwave-ctmg.html`.
+  - Strong angle: success-fee architecture rather than recurring AUM — $50k-$100k retainer, 17 BTC success fee after a stated $20m deployment trigger, 250,000 shares, two-year term and 60-day convenience termination.
+  - Currentness angle: later 2026 filing keeps the agreement in the exhibit record but does not by itself establish that the contemplated treasury transaction closed or that the success fee was earned.
 
 - **AVAX One Hivemind asset management agreement** / **AVAX One Hivemind fee** / **AVAX One management fee** / **Hivemind AVAX One related party** / **AVAX One 10 year asset management agreement**
   - Target: `case-avax-one-hivemind.html`.
@@ -112,6 +123,7 @@ Next investigation queue:
 - Fresh provider amendments / replacements in September 2026 filings: prioritize economics changes and realized exits over generic company-profile pages.
 - Related-party manager structures where the provider also holds issuer equity or a Board relationship.
 - Agreements with a clean same-role discretionary mandate to improve the comparison page beyond four current controls.
+- Success-fee / transaction-fee structures that cannot be normalized as simple AUM percentages.
 - Ripple Treasury: SERP intent is enterprise treasury software / infrastructure rather than public-company DAT provider-contract economics. Only create a page if a clean category-comparison angle routes commercial users without diluting the product.
 - GSR DAT ETF: distinguish ETF-manager search intent from public-company manager-agreement search intent to avoid irrelevant traffic.
 
@@ -120,6 +132,7 @@ Next investigation queue:
 - `/` → digital asset treasury provider economics; digital asset treasury manager/adviser benchmark
 - `/digital-asset-treasury-companies.html` → digital asset treasury companies; DAT company list; provider-economics universe
 - `/compare-dat-management-agreements.html` → compare digital asset treasury management agreements; Board-ready fee / term / exit comparison
+- `/board-cfo-dat-provider-review.html` → Board / Audit Committee / CFO decision-review and four-fact intake
 - `/guide-digital-asset-treasury-management-agreement.html` → digital asset treasury management agreement
 - `/guide-dat-provider-fees.html` → digital asset treasury fees; bitcoin treasury management fees
 - `/guide-dat-provider-exit-economics.html` → digital asset treasury termination; provider exit economics; termination fee
@@ -135,7 +148,8 @@ Next investigation queue:
 
 - Homepage owns the category/product phrase.
 - DAT companies guide owns company/list discovery and routes inward.
-- Comparison page owns explicit compare / benchmark / Board-review intent.
+- Comparison page owns explicit compare / benchmark intent.
+- Board/CFO page owns buyer-role / decision-review intent and conversion.
 - Fee guide owns fee-intent queries.
 - Exit guide owns termination/lock-in/internalization queries.
 - Agreement guide owns contract-review queries.
