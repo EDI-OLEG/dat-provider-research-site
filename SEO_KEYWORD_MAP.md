@@ -45,12 +45,12 @@ Interpretation: the broad company query is small in absolute traffic but commerc
 5. **digital asset treasury termination** / **asset management agreement termination fee** / **digital asset treasury exit economics**
    - Intent: understand cost and mechanics of changing a provider.
    - Target page: `guide-dat-provider-exit-economics.html`
-   - Supporting cases: Eightco/Worldcoin Tower, BitMine/Ethereum Tower, AlphaTON/DWF, Upexi/GSR, AVAX One/Hivemind, Enlivex/Elinnovation, Mango/Cube, CEA/10X, SharpLink, CleanCore, realized outcomes.
+   - Supporting cases: CEA/10X, Eightco/Worldcoin Tower, BitMine/Ethereum Tower, AlphaTON/DWF, Upexi/GSR, AVAX One/Hivemind, Enlivex/Elinnovation, Mango/Cube, SharpLink, CleanCore, realized outcomes.
 
 6. **digital asset treasury adviser agreement** / **related party digital asset treasury adviser**
    - Intent: governance and comparability review.
    - Target page: `guide-related-party-dat-agreements.html`
-   - Supporting cases: AVAX One / Hivemind; Solana Company / Pantera / Summer; BitMine strategic-advisor layer; Eightco ARK Board-advisor stack.
+   - Supporting cases: CEA / 10X related-party history; AVAX One / Hivemind; Solana Company / Pantera / Summer; BitMine strategic-advisor layer; Eightco ARK Board-advisor stack.
 
 7. **digital asset treasury provider** / **digital asset treasury manager** / **digital asset treasury adviser**
    - Intent: category discovery and vendor/role understanding.
@@ -66,7 +66,7 @@ Interpretation: the broad company query is small in absolute traffic but commerc
 
 9. **corporate bitcoin treasury management** / **bitcoin treasury manager** / **bitcoin treasury advisor**
    - Intent is mixed between strategy, operations and outsourced management.
-   - Use supporting language on the homepage and fee/agreement guides, but do not let this broaden the product into custody/accounting/software.
+   - Use supporting language on the homepage and fee/agreement guides, but do not let this broaden the offer into custody/accounting/software.
 
 10. **digital asset treasury strategy** / **crypto treasury management**
    - Broad informational/operational intent. Current SERPs skew toward strategy, custody, payments, accounting and treasury software.
@@ -75,6 +75,15 @@ Interpretation: the broad company query is small in absolute traffic but commerc
 ### P2 — company / agreement / event long-tail
 
 Current source-backed targets:
+
+- **CEA 10X asset management agreement** / **CEA 10X management fee** / **CEA 10X litigation** / **BNC 10X management fees** / **CEA 10X unpaid management fees** / **CEA 10X 20 year agreement** / **CEA 10X liquidated damages**
+  - Target: `case-bnc-10x.html`.
+  - Fresh hook: September 11, 2026 Form 10-Q.
+  - Current economics: latest filing describes a flat 1.4% fee on fair value of assets in the DAT Strategy, a 20-year term through 2045, $1.1m of management expense for the quarter and $1.4m of accrued unpaid fees at July 31, 2026.
+  - Payment-status angle: company says it has not paid management fees invoiced under the AMA since April 10, 2026 while continuing to accrue them.
+  - Currentness angle: March 2026 Market Proposal referred to 1.75%; the latest 10-Q says 1.4%. This is a strong example of why historical fee figures must be re-verified before benchmarking.
+  - Litigation angle: manager's July 28 motion to dismiss and company's August 14 opposition remained pending as of the September filing.
+  - Commercial trigger: live Board / CFO review of current fee, unpaid accruals, termination exposure and litigation-constrained alternatives.
 
 - **Eightco Worldcoin Tower consulting agreement** / **Eightco Worldcoin Tower fee** / **Eightco amended consulting agreement 2026** / **Eightco ARK management fee** / **Eightco ARK warrants** / **Eightco provider termination fee**
   - Target: `case-eightco-worldcoin-ark.html`.
@@ -125,7 +134,6 @@ Current source-backed targets:
   - Strong angle: 0.6% discretionary AUM fee + three-year term + current-period fee evidence.
 
 Existing long-tail:
-- CEA 10X asset management agreement → `case-bnc-10x.html`
 - USBC manager fee reset → `case-usbc-fee-reset.html`
 - SharpLink treasury manager internalization → `case-sharplink.html`
 - CleanCore treasury manager termination → `case-cleancore-exit.html`
@@ -133,6 +141,7 @@ Existing long-tail:
 
 Next investigation queue:
 - Fresh provider amendments / replacements in September 2026 filings: prioritize economics changes and realized exits over generic company-profile pages.
+- Live contracts with accrued-but-unpaid management fees, disputed invoices or payment-status changes; these are high-intent Board/CFO triggers.
 - Agreement stacks where a legacy consultant and new adviser / RIA layer coexist or overlap in disclosed scope.
 - Related-party manager structures where the provider also holds issuer equity or a Board relationship.
 - Agreements with a clean same-role discretionary mandate to improve the comparison page.
