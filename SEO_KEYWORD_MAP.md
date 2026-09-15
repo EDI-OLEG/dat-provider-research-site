@@ -33,12 +33,12 @@ Interpretation: the broad company query is small in absolute traffic but commerc
 3. **digital asset treasury termination** / **asset management agreement termination fee** / **digital asset treasury exit economics**
    - Intent: understand cost and mechanics of changing a provider.
    - Target page: `guide-dat-provider-exit-economics.html`
-   - Supporting cases: Upexi/GSR, CEA/10X, SharpLink, CleanCore, realized outcomes.
+   - Supporting cases: BitMine/Ethereum Tower, Upexi/GSR, CEA/10X, SharpLink, CleanCore, realized outcomes.
 
 4. **digital asset treasury adviser agreement** / **related party digital asset treasury adviser**
    - Intent: governance and comparability review.
    - Target page: `guide-related-party-dat-agreements.html`
-   - Supporting case: Solana Company / Pantera / Summer.
+   - Supporting cases: Solana Company / Pantera / Summer; BitMine strategic-advisor layer.
 
 5. **digital asset treasury provider** / **digital asset treasury manager** / **digital asset treasury adviser**
    - Intent: category discovery and vendor/role understanding.
@@ -64,6 +64,11 @@ Interpretation: the broad company query is small in absolute traffic but commerc
 
 Current source-backed targets:
 
+- **BitMine Ethereum Tower consulting agreement** / **BitMine Ethereum Tower fee** / **BitMine Ethereum Tower termination** / **BitMine staking agreement** / **BitMine American Validator fee**
+  - Target: `case-bitmine-ethereum-tower.html`.
+  - Strong angle: multiple agreement families must not be conflated — 10-year ETH Treasury Consulting Agreement with 85% remaining-fee exit language, separate strategic-advisor warrants, separate March 2026 staking MSA, then September 2026 MSA termination and successor affiliate fee of 1.50% of staking rewards.
+  - Fresh event hook: September 8, 2026 8-K.
+
 - **Upexi GSR asset management agreement** / **Upexi GSR fee** / **Upexi GSR termination** / **Upexi GSR arbitration**
   - Target: `case-upexi-gsr.html`.
   - Strong angle: 1.75% AUM + warrants + 20-year term + realized termination/arbitration.
@@ -84,9 +89,9 @@ Existing long-tail:
 - Axe Compute / DNA provider agreement → `case-axe-dna.html`
 
 Next investigation queue:
-- BitMine: identify whether there is a source-backed external manager/adviser/provider-economics event worth owning; do not create a page merely because the company is high-profile.
 - Ripple Treasury: SERP intent is enterprise treasury software / infrastructure rather than public-company DAT provider-contract economics. Only create a page if a clean category-comparison angle routes commercial users without diluting the product.
 - GSR DAT ETF: distinguish ETF-manager search intent from public-company manager-agreement search intent to avoid irrelevant traffic.
+- Additional fresh 8-K / 10-Q agreement events: prioritize amendments, provider replacement, fee resets, internalization and termination over generic company-profile pages.
 
 ## Page map
 
