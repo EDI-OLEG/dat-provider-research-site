@@ -45,12 +45,12 @@ Interpretation: the broad company query is small in absolute traffic but commerc
 5. **digital asset treasury termination** / **asset management agreement termination fee** / **digital asset treasury exit economics**
    - Intent: understand cost and mechanics of changing a provider.
    - Target page: `guide-dat-provider-exit-economics.html`
-   - Supporting cases: BitMine/Ethereum Tower, AlphaTON/DWF, Upexi/GSR, AVAX One/Hivemind, Mango/Cube, CEA/10X, SharpLink, CleanCore, realized outcomes.
+   - Supporting cases: Eightco/Worldcoin Tower, BitMine/Ethereum Tower, AlphaTON/DWF, Upexi/GSR, AVAX One/Hivemind, Enlivex/Elinnovation, Mango/Cube, CEA/10X, SharpLink, CleanCore, realized outcomes.
 
 6. **digital asset treasury adviser agreement** / **related party digital asset treasury adviser**
    - Intent: governance and comparability review.
    - Target page: `guide-related-party-dat-agreements.html`
-   - Supporting cases: AVAX One / Hivemind; Solana Company / Pantera / Summer; BitMine strategic-advisor layer.
+   - Supporting cases: AVAX One / Hivemind; Solana Company / Pantera / Summer; BitMine strategic-advisor layer; Eightco ARK Board-advisor stack.
 
 7. **digital asset treasury provider** / **digital asset treasury manager** / **digital asset treasury adviser**
    - Intent: category discovery and vendor/role understanding.
@@ -75,6 +75,18 @@ Interpretation: the broad company query is small in absolute traffic but commerc
 ### P2 — company / agreement / event long-tail
 
 Current source-backed targets:
+
+- **Eightco Worldcoin Tower consulting agreement** / **Eightco Worldcoin Tower fee** / **Eightco amended consulting agreement 2026** / **Eightco ARK management fee** / **Eightco ARK warrants** / **Eightco provider termination fee**
+  - Target: `case-eightco-worldcoin-ark.html`.
+  - Strong angle: original declining 1.00% / 0.50% / 0.25% schedule was replaced by a flat 1.00% fee over a broader Treasury Assets + Investment Assets denominator; amended agreement carries 85% remaining-fee liquidated-damages language and reported about $2.96m of H1 2026 consulting expense.
+  - Provider-stack angle: a separate ARK MSA adds a publicly described 1.00% treasury-management fee, warrants, restricted Board-advisor shares, annual Board-advisor cash compensation and milestone economics; keep this agreement family separate from Worldcoin Tower until scope and regulatory conditions are reconciled.
+  - Commercial trigger: live amendment / currentness / overlapping-provider review.
+
+- **Enlivex Elinnovation asset management agreement** / **Enlivex digital asset management fee** / **Enlivex RAIN treasury manager** / **Enlivex Lind asset management amendment**
+  - Target: `case-enlivex-elinnovation.html`.
+  - Strong angle: generally 2.00% annual treasury-value fee, three-year term and a no-cause exit path beginning after the first anniversary with 30 days' notice.
+  - Currentness angle: March 2026 financing amendment brought Lind rights into the digital-asset collateral / control stack without replacing the manager.
+  - Same-role route: `compare-dat-management-agreements.html`.
 
 - **VisionWave CTMG crypto treasury agreement** / **VisionWave 17 BTC success fee** / **VisionWave Crypto Treasury Management Group** / **VisionWave digital asset treasury consultant**
   - Target: `case-visionwave-ctmg.html`.
@@ -121,8 +133,9 @@ Existing long-tail:
 
 Next investigation queue:
 - Fresh provider amendments / replacements in September 2026 filings: prioritize economics changes and realized exits over generic company-profile pages.
+- Agreement stacks where a legacy consultant and new adviser / RIA layer coexist or overlap in disclosed scope.
 - Related-party manager structures where the provider also holds issuer equity or a Board relationship.
-- Agreements with a clean same-role discretionary mandate to improve the comparison page beyond four current controls.
+- Agreements with a clean same-role discretionary mandate to improve the comparison page.
 - Success-fee / transaction-fee structures that cannot be normalized as simple AUM percentages.
 - Ripple Treasury: SERP intent is enterprise treasury software / infrastructure rather than public-company DAT provider-contract economics. Only create a page if a clean category-comparison angle routes commercial users without diluting the product.
 - GSR DAT ETF: distinguish ETF-manager search intent from public-company manager-agreement search intent to avoid irrelevant traffic.
