@@ -33,7 +33,7 @@ Interpretation: the broad company query is small in absolute traffic but commerc
 3. **digital asset treasury termination** / **asset management agreement termination fee** / **digital asset treasury exit economics**
    - Intent: understand cost and mechanics of changing a provider.
    - Target page: `guide-dat-provider-exit-economics.html`
-   - Supporting cases: BitMine/Ethereum Tower, Upexi/GSR, CEA/10X, SharpLink, CleanCore, realized outcomes.
+   - Supporting cases: BitMine/Ethereum Tower, AlphaTON/DWF, Upexi/GSR, CEA/10X, SharpLink, CleanCore, realized outcomes.
 
 4. **digital asset treasury adviser agreement** / **related party digital asset treasury adviser**
    - Intent: governance and comparability review.
@@ -68,6 +68,10 @@ Current source-backed targets:
   - Target: `case-bitmine-ethereum-tower.html`.
   - Strong angle: multiple agreement families must not be conflated — 10-year ETH Treasury Consulting Agreement with 85% remaining-fee exit language, separate strategic-advisor warrants, separate March 2026 staking MSA, then September 2026 MSA termination and successor affiliate fee of 1.50% of staking rewards.
   - Fresh event hook: September 8, 2026 8-K.
+
+- **AlphaTON DWF treasury management agreement** / **AlphaTON DWF settlement** / **TON treasury manager** / **DWF TON treasury agreement**
+  - Target: `case-alphaton-dwf.html`.
+  - Strong angle: provider-funded treasury capital + restricted-share compensation + transfer commitments + termination restrictions + repurchase / conversion rights; relationship settled and terminated within months.
 
 - **Upexi GSR asset management agreement** / **Upexi GSR fee** / **Upexi GSR termination** / **Upexi GSR arbitration**
   - Target: `case-upexi-gsr.html`.
