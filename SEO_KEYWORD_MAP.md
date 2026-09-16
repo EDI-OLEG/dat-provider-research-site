@@ -62,12 +62,13 @@ As of **2026-09-16**, a fresh public web search for `site:datproviderresearch.co
    - Broad informational / operational intent. Current SERPs skew toward strategy, payments, custody, accounting and treasury software.
    - Do **not** make this the homepage primary keyword. Use only where the page clearly narrows to provider-contract economics.
 
-## 2026-09-16 fresh SERP opportunity
+## 2026-09-16 source-led opportunities
+
+### Webus / Samara Alpha — signed versus activated mandate
 
 A fresh search for **`digital asset treasury management agreement`** surfaced the SEC-filed **Webus International / Samara Alpha Delegated Digital Asset Management Agreement** as a direct primary-source result. The filed contract supplies unusually complete decision-stage fields: conditional activation, discretionary scope, 2.0% AUM fee, 20% performance fee over a high-water mark, 80/20 staking-reward split, reimbursable expenses, multi-signature custody controls, a three-year term from asset transfer and 90-day ordinary termination.
 
-This creates a strong source-led long-tail cluster without generic crypto filler:
-
+Long-tail cluster:
 - **Webus Samara Alpha management agreement**
 - **Webus XRP treasury management agreement**
 - **Samara Alpha XRP treasury management fee**
@@ -79,6 +80,23 @@ Target: `case-webus-samara-alpha.html`.
 
 Important currentness rule: the 2025 filing states that the agreement becomes effective only upon actual asset transfer and that no assets had been transferred or committed as of execution / announcement. Webus later renamed itself Wetour Robotics Limited. Do not infer that the mandate became funded or operative without later primary-source evidence of the Asset Transfer Date, amendment or termination.
 
+### BNB Plus / Cypress — related-party provider exit to internalization
+
+The July / August 2026 BNB Plus record supplies a clean realized-outcome cluster: a related-party discretionary manager plus strategic adviser moved from recurring AUM / incentive / monthly adviser / warrant economics into a Termination, Standstill and Mutual Release Agreement, cash + preferred-share settlement, warrant rescission / modification, Board / CIO changes and fully in-house treasury execution.
+
+Long-tail cluster:
+- **BNB Plus Cypress settlement**
+- **BNB Plus Cypress asset management agreement**
+- **BNB Plus Cypress management fee**
+- **BNB Plus treasury manager termination**
+- **Applied DNA Cypress digital assets services agreement**
+- **Cypress BNB 1.25% management fee**
+- **BNB Plus internalized treasury management**
+
+Target: `case-bnb-plus-cypress.html`.
+
+Commercial angle: this is not just a termination query. It is a Board / CFO lifecycle control showing that provider exit may combine cash consideration, preferred equity, warrant changes, governance separation, settlement-default economics and internalization.
+
 ## P2 — company / agreement / event long-tail
 
 ### Current source-backed targets
@@ -86,6 +104,12 @@ Important currentness rule: the 2025 filing states that the agreement becomes ef
 - **CEA / BNC / 10X** → `case-bnc-10x.html`
   - Queries: `CEA 10X asset management agreement`, `CEA 10X management fee`, `CEA 10X litigation`, `CEA 10X unpaid management fees`, `CEA 10X 20 year agreement`, `CEA 10X liquidated damages`.
   - Current hook: September 11, 2026 Form 10-Q; filing describes a flat 1.4% fee, 20-year term through 2045, $1.1m quarterly management expense, $1.4m accrued unpaid fees and pending litigation.
+
+- **BNB Plus / Cypress** → `case-bnb-plus-cypress.html`
+  - Queries: `BNB Plus Cypress settlement`, `BNB Plus Cypress management fee`, `BNB Plus Cypress asset management agreement`, `BNB Plus internalized BNB treasury`, `Applied DNA Cypress digital assets services agreement`.
+  - Starting economics: 1.25% annual AUM fee + 10% incentive fee; separate $60k/month strategic-adviser fee + 1,986,634 warrants; provider affiliates included the then-Chairman and CIO.
+  - Realized exit: July 23, 2026 termination / standstill / mutual release; $1.0m cash + 200,000 Series B-1 Preferred shares; settlement-default fee mechanic; warrant rescission / modification; Chairman / CIO changes; company disclosed transition of BNB strategy execution fully in-house.
+  - Commercial trigger: related-party exit, settlement-performance exposure and internalization decision record.
 
 - **Eightco / Worldcoin Tower / ARK** → `case-eightco-worldcoin-ark.html`
   - Queries: `Eightco Worldcoin Tower consulting agreement`, `Eightco Worldcoin Tower fee`, `Eightco amended consulting agreement 2026`, `Eightco ARK management fee`, `Eightco ARK warrants`, `Eightco provider termination fee`.
@@ -140,11 +164,12 @@ Existing long-tail:
 Prioritize:
 - Fresh provider amendments / replacements in September 2026 filings where economics change.
 - Live contracts with accrued-but-unpaid management fees, disputed invoices or payment-status changes.
+- Provider exits with realized settlement consideration, warrant/equity modification and internalization — BNB Plus / Cypress is now the anchor control.
 - Agreement stacks where a legacy consultant and new adviser / RIA layer coexist or overlap.
 - Related-party manager structures where the provider also holds issuer equity or a Board relationship.
 - Clean same-role discretionary mandates that strengthen the comparison set.
 - Success-fee / transaction-fee structures that cannot be reduced to a simple AUM percentage.
-- Conditional / unfunded mandates where searchers may confuse “signed” with “active”; Webus / Samara Alpha is now the anchor case.
+- Conditional / unfunded mandates where searchers may confuse “signed” with “active”; Webus / Samara Alpha is the anchor case.
 
 Avoid:
 - Ripple Treasury software / enterprise treasury SERP intent unless a page can clearly route users back to public-company provider-contract economics.
