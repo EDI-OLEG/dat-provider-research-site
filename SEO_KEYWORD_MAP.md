@@ -64,6 +64,23 @@ As of **2026-09-16**, a fresh public web search for `site:datproviderresearch.co
 
 ## 2026-09-16 source-led opportunities
 
+### Hyperliquid Strategies / Rorschach — financing-linked compensation waiver
+
+Hyperliquid Strategies supplies a distinct provider-state control. Its five-year Strategic Advisor Agreement gives Rorschach Advisors a future-financing formula of shares equal to 5% of the qualifying financing share count plus warrants equal to 15%. Later 2026 filings say that additional future-grant right is waived unless and until Rorschach revokes the waiver for future financings; the August 2026 Form 10-K says revocation requires two weeks' advance notice and no such notice had been provided through the filing / financial-statement issuance date. A separate Advisor Rights Agreement adds conditional Board nomination, Chairman and information rights.
+
+Long-tail cluster:
+- **Hyperliquid Strategies Rorschach advisor agreement**
+- **Hyperliquid Strategies Rorschach warrants**
+- **Hyperliquid Strategies advisor equity waiver**
+- **PURR Rorschach Advisors agreement**
+- **Hyperliquid Strategies 5% 15% advisor**
+- **Hyperliquid Strategies Board nomination Rorschach**
+- **Rorschach advisor compensation waiver**
+
+Target: `case-hyperliquid-strategies-rorschach.html`.
+
+Commercial angle: `ACTIVE CONTRACT + CONTRACTUAL COMPENSATION RIGHT + REVOCABLE WAIVER` is a separate provider state. Closing shares / warrants, future service-compensation grants and Board / information rights must be normalized as separate economic and governance layers.
+
 ### SUI Group / Karatage + Galaxy — two provider layers over one treasury
 
 SUI Group provides a strong provider-stack normalization case. Galaxy is the discretionary asset manager for an exclusive SUI sleeve, while Karatage is a separate related-party strategic adviser whose AUM-linked fee, warrants and contractual rights touch manager selection and replacement. The June 2026 filing supplies later-period fee and operating evidence for both layers.
@@ -190,6 +207,11 @@ Commercial angle: this is not just a termination query. It is a Board / CFO life
   - Queries: `CEA 10X asset management agreement`, `CEA 10X management fee`, `CEA 10X litigation`, `CEA 10X unpaid management fees`, `CEA 10X 20 year agreement`, `CEA 10X liquidated damages`.
   - Current hook: September 11, 2026 Form 10-Q; filing describes a flat 1.4% fee, 20-year term through 2045, $1.1m quarterly management expense, $1.4m accrued unpaid fees and pending litigation.
 
+- **Hyperliquid Strategies / Rorschach Advisors** → `case-hyperliquid-strategies-rorschach.html`
+  - Queries: `Hyperliquid Strategies Rorschach advisor agreement`, `PURR Rorschach Advisors agreement`, `Hyperliquid Strategies advisor equity waiver`, `Hyperliquid Strategies Rorschach warrants`, `Hyperliquid Strategies Board nomination Rorschach`.
+  - Contract economics: five-year strategic-adviser term; future-financing formula of 5% shares + 15% warrants under the agreement mechanics; separate closing shares/warrants and Advisor Rights Agreement.
+  - Current hook: August 2026 10-K says future-financing grant right remains waived unless revoked for future financings on two weeks' advance notice; no revocation notice had been provided through the filing date.
+
 - **SUI Group / Galaxy + Karatage** → `case-sui-group-karatage-galaxy.html`
   - Queries: `SUI Group Galaxy asset management agreement`, `SUI Group Karatage strategic advisory agreement`, `SUI Group management fee`, `Galaxy SUI 1 million minimum fee`, `Karatage SUI warrants`, `SUI Group related party adviser`.
   - Manager layer: Galaxy 0.60%–0.80% annual asset-based fee, $1M annual minimum, five-year term and exclusive first-$750M / 50%-above-$750M allocation mechanics.
@@ -271,6 +293,8 @@ Existing long-tail:
 - SharpLink treasury manager internalization → `case-sharplink.html`
 - CleanCore treasury manager termination → `case-cleancore-exit.html`
 - Axe Compute / DNA provider agreement → `case-axe-dna.html`
+- AI Financial / Kraken non-renewal → `case-aifi-kraken-concrete.html`
+- Hyperliquid Strategies / Rorschach compensation waiver → `case-hyperliquid-strategies-rorschach.html`
 - Nuvve / DeFi HYPE strategy abandonment → `case-nuvve-defi-hype.html`
 - FG Nexus / Galaxy strategy exit → `case-fg-nexus-galaxy.html`
 - Pineapple / Canary + Monarq + Innovating Capital provider-stack currentness → `case-pineapple-canary-monarq.html`
@@ -282,6 +306,7 @@ Prioritize:
 - Fresh provider amendments / replacements in September 2026 filings where economics change.
 - Live contracts with accrued-but-unpaid management fees, disputed invoices or payment-status changes.
 - Active contracts with **fee paused / accrual paused** status that could be mistaken for termination — Solmate / Pulsar is now an anchor.
+- Active contracts with **revocable compensation waivers** or suspended equity-grant formulas that can reactivate without replacing the agreement — Hyperliquid Strategies / Rorschach is now an anchor.
 - Same-provider / different-client controls where the headline rate is similar but payment medium, term or exit mechanics differ — Lite Strategy / GSR versus Upexi / GSR is now an anchor.
 - Multi-provider stacks where one layer has governance rights over another provider — SUI Group / Karatage + Galaxy is now an anchor.
 - Provider stacks where a later Treasury Reserve Policy / adviser layer appears without clear termination of earlier provider families — Pineapple is now an anchor.
