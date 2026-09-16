@@ -33,7 +33,7 @@ As of **2026-09-16**, a fresh public web search for `site:datproviderresearch.co
 4. **digital asset treasury fees** / **digital asset treasury management fees** / **bitcoin treasury management fees**
    - Intent: compare provider compensation.
    - Target: `guide-dat-provider-fees.html`.
-   - Required vocabulary: AUM / asset-based fee, denominator, performance fee, hurdle / HWM, warrants / equity, expenses and dollar exposure.
+   - Required vocabulary: AUM / asset-based fee, denominator, performance fee, hurdle / HWM, warrants / equity, payment medium, expenses and dollar exposure.
 
 5. **digital asset treasury termination** / **asset management agreement termination fee** / **digital asset treasury exit economics**
    - Intent: understand cost and mechanics of changing a provider.
@@ -63,6 +63,57 @@ As of **2026-09-16**, a fresh public web search for `site:datproviderresearch.co
    - Do **not** make this the homepage primary keyword. Use only where the page clearly narrows to provider-contract economics.
 
 ## 2026-09-16 source-led opportunities
+
+### SUI Group / Karatage + Galaxy — two provider layers over one treasury
+
+SUI Group provides a strong provider-stack normalization case. Galaxy is the discretionary asset manager for an exclusive SUI sleeve, while Karatage is a separate related-party strategic adviser whose AUM-linked fee, warrants and contractual rights touch manager selection and replacement. The June 2026 filing supplies later-period fee and operating evidence for both layers.
+
+Long-tail cluster:
+- **SUI Group Galaxy asset management agreement**
+- **SUI Group Karatage strategic advisory agreement**
+- **SUI Group management fee**
+- **Galaxy SUI $1 million minimum fee**
+- **Karatage SUI warrants**
+- **SUI Group related party adviser**
+- **SUI Group Galaxy termination**
+
+Target: `case-sui-group-karatage-galaxy.html`.
+
+Commercial angle: two provider agreements can reference the same treasury while performing different roles. Fee, denominator, term, warrants, exclusivity and cross-provider governance rights must be normalized separately.
+
+### Lite Strategy / GSR — same manager, different client contract
+
+Lite Strategy provides a clean same-role control against Upexi / GSR. The recurring fee is also 1.75%, but Lite's fee is paid in shares or pre-funded warrants, sits beside 1,461,989 separate GSR warrants, runs inside a ten-year exclusive LTC mandate and uses a present-value remaining-term termination formula. Later 2026 materials continued to describe active GSR treasury management.
+
+Long-tail cluster:
+- **Lite Strategy GSR asset management agreement**
+- **Lite Strategy GSR management fee**
+- **Lite Strategy 1.75% management fee**
+- **Lite Strategy early termination fee**
+- **Lite Strategy GSR warrants**
+- **Lite Strategy Litecoin manager**
+- **Lite Strategy GSR pre-funded warrants**
+
+Target: `case-lite-strategy-gsr.html`.
+
+Commercial angle: payment medium and dilution are decision fields. An apparently identical 1.75% rate can produce different economics when one mandate is equity-settled and includes separate warrants and a different exit formula.
+
+### TON Strategy / Kingsway — market-cap denominator, payment stop and termination
+
+TON Strategy supplies a realized-exit and denominator-control case: a related-party adviser with a $3M setup fee, 2% annual fee on fully diluted market capitalization and 20-year initial term. The company stopped monthly payments in March 2026, attempted settlement, then terminated without settlement on Aug. 10 while both sides reserved rights.
+
+Long-tail cluster:
+- **TON Strategy Kingsway advisory agreement**
+- **TON Strategy Kingsway fee**
+- **TONX Kingsway agreement**
+- **TON Strategy 2% market cap fee**
+- **TON Strategy Kingsway termination**
+- **TON Strategy related party adviser**
+- **TON Strategy unpaid advisory fees**
+
+Target: `case-ton-strategy-kingsway.html`.
+
+Commercial angle: a market-cap fee is not an AUM fee, and the provider lifecycle should track contractual rate → recognized expense → payment status → settlement attempt → termination → unresolved exposure.
 
 ### Webus / Samara Alpha — signed versus activated mandate
 
@@ -121,25 +172,41 @@ Commercial angle: this is not just a termination query. It is a Board / CFO life
   - Queries: `CEA 10X asset management agreement`, `CEA 10X management fee`, `CEA 10X litigation`, `CEA 10X unpaid management fees`, `CEA 10X 20 year agreement`, `CEA 10X liquidated damages`.
   - Current hook: September 11, 2026 Form 10-Q; filing describes a flat 1.4% fee, 20-year term through 2045, $1.1m quarterly management expense, $1.4m accrued unpaid fees and pending litigation.
 
+- **SUI Group / Galaxy + Karatage** → `case-sui-group-karatage-galaxy.html`
+  - Queries: `SUI Group Galaxy asset management agreement`, `SUI Group Karatage strategic advisory agreement`, `SUI Group management fee`, `Galaxy SUI 1 million minimum fee`, `Karatage SUI warrants`, `SUI Group related party adviser`.
+  - Manager layer: Galaxy 0.60%–0.80% annual asset-based fee, $1M annual minimum, five-year term and exclusive first-$750M / 50%-above-$750M allocation mechanics.
+  - Adviser layer: Karatage 0%–0.80% AUM schedule, ten-year term, 3,113,469 service-linked warrants and rights touching manager changes.
+  - Current hook: June 2026 filing reports $0.6m combined asset + strategic management fees in H1, about $0.2m Karatage advisory fees and active Galaxy deployment activity.
+
+- **Lite Strategy / GSR** → `case-lite-strategy-gsr.html`
+  - Queries: `Lite Strategy GSR asset management agreement`, `Lite Strategy GSR management fee`, `Lite Strategy 1.75% fee`, `Lite Strategy early termination fee`, `Lite Strategy GSR warrants`, `Lite Strategy Litecoin manager`.
+  - Economics: 1.75% annual Account Assets fee paid in common shares / pre-funded warrants, plus 1,461,989 separate provider warrants.
+  - Term / exit: ten-year exclusive manager mandate; ordinary company exit tied to ending LTC Strategy; present-value remaining-term fee formula.
+  - Current hook: March and July 2026 disclosures continued to describe active GSR treasury management.
+
+- **TON Strategy / Kingsway** → `case-ton-strategy-kingsway.html`
+  - Queries: `TON Strategy Kingsway advisory agreement`, `TON Strategy Kingsway fee`, `TONX Kingsway agreement`, `TON Strategy 2% market cap fee`, `TON Strategy Kingsway termination`, `TON Strategy unpaid advisory fees`.
+  - Starting economics: $3M setup fee + 2% annual fee on fully diluted issuer market capitalization; 20-year term; related-party adviser.
+  - Realized outcome: monthly payments stopped in March 2026; settlement attempted; agreement terminated Aug. 10 without settlement; rights reserved and financial impact not yet estimated.
+
 - **Forum Markets / Electric Treasury Edge** → `case-forum-electric-treasury-edge.html`
   - Queries: `Forum Markets Electric Treasury Edge agreement`, `ETHZilla Electric Treasury Edge management fee`, `Forum Markets asset manager termination`, `Electric Treasury Edge liquidated damages`, `Forum Markets 1.5 million termination payment`.
   - Starting economics: 2% annual asset-based fee, $2M annual minimum, five-year initial term, governance-heavy no-cause exit and 85% remaining-compensation liquidated-damages language.
   - Realized outcome: mutual no-cause termination May 29, 2026; $1.5M paid in June for outstanding fees / expenses plus an agreed portion of liquidated damages.
-  - Commercial trigger: actual settlement versus contractual formula, provider exit and post-termination responsibility.
 
 - **BNB Plus / Cypress** → `case-bnb-plus-cypress.html`
   - Queries: `BNB Plus Cypress settlement`, `BNB Plus Cypress management fee`, `BNB Plus Cypress asset management agreement`, `BNB Plus internalized BNB treasury`, `Applied DNA Cypress digital assets services agreement`.
-  - Starting economics: 1.25% annual AUM fee + 10% incentive fee; separate $60k/month strategic-adviser fee + 1,986,634 warrants; provider affiliates included the then-Chairman and CIO.
-  - Realized exit: July 23, 2026 termination / standstill / mutual release; $1.0m cash + 200,000 Series B-1 Preferred shares; settlement-default fee mechanic; warrant rescission / modification; Chairman / CIO changes; company disclosed transition of BNB strategy execution fully in-house.
-  - Commercial trigger: related-party exit, settlement-performance exposure and internalization decision record.
+  - Starting economics: 1.25% annual AUM fee + 10% incentive fee; separate $60k/month strategic-adviser fee + 1,986,634 warrants.
+  - Realized exit: July 23, 2026 termination / standstill / mutual release; $1.0m cash + 200,000 Series B-1 Preferred shares; warrant rescission / modification; company disclosed transition fully in-house.
 
 - **Eightco / Worldcoin Tower / ARK** → `case-eightco-worldcoin-ark.html`
   - Queries: `Eightco Worldcoin Tower consulting agreement`, `Eightco Worldcoin Tower fee`, `Eightco amended consulting agreement 2026`, `Eightco ARK management fee`, `Eightco ARK warrants`, `Eightco provider termination fee`.
   - Angle: declining 1.00% / 0.50% / 0.25% schedule replaced by flat 1.00% over broader Treasury Assets + Investment Assets denominator; separate ARK agreement family.
 
 - **AlphaTON / DWF / Alpha Sigma** → `case-alphaton-dwf.html`
-  - Queries: `AlphaTON DWF treasury management agreement`, `AlphaTON DWF settlement`, `TON treasury manager`, `AlphaTON Alpha Sigma manager fee`.
-  - Angle: DWF financing-linked treasury relationship settled / terminated while a separate Alpha Sigma manager remained disclosed.
+  - Queries: `AlphaTON DWF treasury management agreement`, `AlphaTON DWF settlement`, `AlphaTON Alpha Sigma Capital asset management agreement`, `AlphaTON Alpha Sigma fee`, `AlphaTON 1% asset management fee`, `AlphaTON related party manager`, `AlphaTON TON manager`.
+  - DWF angle: financing-linked treasury relationship settled / terminated.
+  - Current manager angle: separate Alpha Sigma 1.0% Account Assets fee, one-year term, conditional 90-day company exit, FY2026 $80,918 paid and about $2.5m managed at Mar. 31; related-party leadership overlap.
 
 - **Enlivex / Elinnovation** → `case-enlivex-elinnovation.html`
   - Queries: `Enlivex Elinnovation asset management agreement`, `Enlivex digital asset management fee`, `Enlivex RAIN treasury manager`.
@@ -168,8 +235,8 @@ Commercial angle: this is not just a termination query. It is a Board / CFO life
   - Queries: `Solana Company Pantera Trading Advisory Agreement`, `Solana Company Pantera management fee`, `Solana Company strategic advisor warrants`.
 
 - **Forward / Galaxy** → `case-forward-galaxy.html`
-  - Queries: `Forward Industries Galaxy asset management agreement`, `Forward Galaxy management fee`.
-  - Angle: 0.60% discretionary AUM fee + three-year term + later-period fee evidence.
+  - Queries: `Forward Industries Galaxy asset management agreement`, `Forward Galaxy management fee`, `Forward Galaxy services agreement`, `Forward Galaxy 583000 monthly fee`, `Forward Galaxy 0.6% asset management fee`.
+  - Angle: keep the 0.60% discretionary Asset Management Agreement separate from the $583k/month → $100k/month Services Agreement that expired June 10, 2026.
 
 - **Webus / Wetour Robotics / Samara Alpha** → `case-webus-samara-alpha.html`
   - Queries: `Webus Samara Alpha management agreement`, `Webus XRP treasury management agreement`, `Samara Alpha XRP management fee`, `delegated digital asset management agreement`, `Wetour Robotics Samara Alpha`.
@@ -180,14 +247,20 @@ Existing long-tail:
 - SharpLink treasury manager internalization → `case-sharplink.html`
 - CleanCore treasury manager termination → `case-cleancore-exit.html`
 - Axe Compute / DNA provider agreement → `case-axe-dna.html`
+- Nuvve / DeFi HYPE strategy abandonment → `case-nuvve-defi-hype.html`
+- FG Nexus / Galaxy strategy exit → `case-fg-nexus-galaxy.html`
+- Pineapple / Canary + Monarq split manager stack → `case-pineapple-canary-monarq.html`
+- SkyAI / Sol Edge fee reset and 20-year exit exposure → `case-skyai-sol-edge.html`
 
 ## Investigation queue
 
 Prioritize:
 - Fresh provider amendments / replacements in September 2026 filings where economics change.
 - Live contracts with accrued-but-unpaid management fees, disputed invoices or payment-status changes.
-- Provider exits where contractual liquidated-damages exposure can be compared with the realized settlement amount — Forum / Electric Treasury Edge is now a clean anchor.
-- Provider exits with realized settlement consideration, warrant/equity modification and internalization — BNB Plus / Cypress is an anchor control.
+- Same-provider / different-client controls where the headline rate is similar but payment medium, term or exit mechanics differ — Lite Strategy / GSR versus Upexi / GSR is now an anchor.
+- Multi-provider stacks where one layer has governance rights over another provider — SUI Group / Karatage + Galaxy is now an anchor.
+- Provider exits where contractual liquidated-damages exposure can be compared with the realized settlement amount — Forum / Electric Treasury Edge is an anchor.
+- Provider exits with realized settlement consideration, warrant/equity modification and internalization — BNB Plus / Cypress is an anchor.
 - Agreement stacks where a legacy consultant and new adviser / RIA layer coexist or overlap.
 - Related-party manager structures where the provider also holds issuer equity or a Board relationship.
 - Clean same-role discretionary mandates that strengthen the comparison set.
