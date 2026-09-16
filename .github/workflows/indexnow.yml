@@ -1,0 +1,114 @@
+name: IndexNow submit
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Wait for GitHub Pages deployment
+        run: sleep 90
+
+      - name: Submit changed URLs to IndexNow
+        env:
+          INDEXNOW_KEY: 6d8b359f3f5fe31ec871892a92765ac1
+          SITE_HOST: datproviderresearch.com
+          SITE_BASE: https://datproviderresearch.com
+        run: |
+          python - <<'PY'
+          import json, os, re, subprocess, time, urllib.parse, urllib.request
+
+          key = os.environ['INDEXNOW_KEY']
+          host = os.environ['SITE_HOST']
+          base = os.environ['SITE_BASE'].rstrip('/')
+          key_url = f"{base}/{key}.txt"
+
+          # Ownership preflight: never submit unless the public key file is live.
+          for attempt in range(5):
+              try:
+                  with urllib.request.urlopen(key_url, timeout=20) as r:
+                      public_key = r.read().decode('utf-8').strip()
+                  if public_key == key:
+                      break
+              except Exception:
+                  pass
+              if attempt == 4:
+                  raise SystemExit(f"IndexNow key preflight failed: {key_url}")
+              time.sleep(30)
+
+          before = os.environ.get('GITHUB_EVENT_BEFORE', '')
+          sha = os.environ.get('GITHUB_SHA', 'HEAD')
+          urls = []
+
+          # On normal pushes, submit only changed public HTML/XML/TXT endpoints.
+          if before and set(before) != {'0'}:
+              try:
+                  changed = subprocess.check_output(
+                      ['git', 'diff', '--name-only', before, sha], text=True
+                  ).splitlines()
+              except Exception:
+                  changed = []
+          else:
+              changed = []
+
+          for path in changed:
+              if path == 'index.html':
+                  urls.append(base + '/')
+              elif path.endswith(('.html', '.xml', '.txt')) and not path.startswith('.'):
+                  urls.append(base + '/' + urllib.parse.quote(path))
+
+          # First installation / workflow-only changes: seed discovery from current sitemap.
+          if not urls:
+              sitemap_url = base + '/sitemap.xml'
+              with urllib.request.urlopen(sitemap_url, timeout=30) as r:
+                  sitemap = r.read().decode('utf-8')
+              urls = re.findall(r'<loc>(.*?)</loc>', sitemap)
+
+          # Keep only this host and de-duplicate while preserving order.
+          clean = []
+          seen = set()
+          for u in urls:
+              p = urllib.parse.urlparse(u)
+              if p.scheme == 'https' and p.netloc == host and u not in seen:
+                  seen.add(u)
+                  clean.append(u)
+
+          if not clean:
+              raise SystemExit('No eligible URLs to submit')
+
+          payload = json.dumps({
+              'host': host,
+              'key': key,
+              'keyLocation': key_url,
+              'urlList': clean[:10000],
+          }).encode('utf-8')
+
+          req = urllib.request.Request(
+              'https://api.indexnow.org/indexnow',
+              data=payload,
+              headers={'Content-Type': 'application/json; charset=utf-8'},
+              method='POST',
+          )
+          try:
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  body = r.read().decode('utf-8', 'replace')
+                  print(f'IndexNow status={r.status} urls={len(clean)} body={body[:500]}')
+          except urllib.error.HTTPError as e:
+              body = e.read().decode('utf-8', 'replace')
+              print(f'IndexNow status={e.code} urls={len(clean)} body={body[:1000]}')
+              raise
+          PY
+        env:
+          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
+          GITHUB_SHA: ${{ github.sha }}
