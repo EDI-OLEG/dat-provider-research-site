@@ -1,17 +1,21 @@
 # DAT Provider Research
 
-Static validation site for **DAT Provider Economics Stress Test**.
+Independent public-source provider economics and realized outcomes for digital-asset treasury decisions.
 
-Current founding offer: an independent, SEC-sourced stress test for public-company digital-asset treasury manager and adviser arrangements. The work focuses on the full provider economics stack: recurring and performance fees, term and renewal, termination / liquidated-damages exposure, equity or warrant consideration, related-party and governance facts, internalization / renegotiation precedents, realized exits, and transition / control-readiness signals.
+Public site: https://datproviderresearch.com
 
-- Fixed founding-validation price: **$4,900**
-- Target turnaround: **72 hours**
-- Primary audience: Boards / committees, CFO / finance teams, outside counsel, managers and investor / activist advisers
-- Research boundary: public-source factual evidence; no legal, fairness, fiduciary, accounting or investment opinion
+## Product
 
-Privacy posture of the static site:
+**DAT Provider Economics Stress Test** — $4,900 fixed / 72 hours.
 
-- No analytics
-- No cookies
-- No tracking pixels
-- No JavaScript dependencies
+The public research set normalizes provider role, fee denominator, duration, exit mechanics, equity / warrant economics, related-party facts, amendment history, accrued / paid / unpaid status, realized outcomes and provider-specific currentness.
+
+Multi-provider stacks are treated provider-by-provider: identical headline percentages are not automatically cumulative when they apply to different sleeves or denominators, and later evidence for one provider does not establish currentness for every agreement in the stack.
+
+## Boundaries
+
+Public-source factual commercial research only. No legal, fairness, fiduciary, accounting or investment opinion. No provider selection, retention or termination recommendation.
+
+## Site architecture
+
+Static HTML, no analytics, cookies, tracking pixels or JavaScript dependencies. Primary-source SEC links are retained where material to reproducibility.
