@@ -25,9 +25,12 @@ jobs:
           INDEXNOW_KEY: 6d8b359f3f5fe31ec871892a92765ac1
           SITE_HOST: datproviderresearch.com
           SITE_BASE: https://datproviderresearch.com
+          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
+          GITHUB_SHA: ${{ github.sha }}
         run: |
           python - <<'PY'
-          import json, os, re, subprocess, time, urllib.parse, urllib.request
+          import json, os, re, subprocess, time
+          import urllib.error, urllib.parse, urllib.request
 
           key = os.environ['INDEXNOW_KEY']
           host = os.environ['SITE_HOST']
@@ -109,6 +112,3 @@ jobs:
               print(f'IndexNow status={e.code} urls={len(clean)} body={body[:1000]}')
               raise
           PY
-        env:
-          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
-          GITHUB_SHA: ${{ github.sha }}
