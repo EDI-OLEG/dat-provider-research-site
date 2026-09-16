@@ -98,6 +98,24 @@ Target: `case-lite-strategy-gsr.html`.
 
 Commercial angle: payment medium and dilution are decision fields. An apparently identical 1.75% rate can produce different economics when one mandate is equity-settled and includes separate warrants and a different exit formula.
 
+### Solmate / Strategic Advisors + Pulsar — anniversary fee versus paused fee
+
+Solmate adds two distinct adviser-currentness states. Its ten-year Strategic Advisor Agreement uses aggregate annual compensation of 1.00% of SOL AUM up to $1B and 0.50% above $1B, measured on the annual anniversary using the contract's SOL valuation mechanics, and also carries multiple warrant layers. A separate related-party Pulsar Group agreement charged $250,000 per month before payment and accrual were suspended in April 2026 while the remainder of the contract stayed in force.
+
+Long-tail cluster:
+- **Solmate Strategic Advisor Agreement**
+- **Brera Solmate strategic advisor fee**
+- **Solmate 1% SOL AUM fee**
+- **Solmate strategic advisor warrants**
+- **Solmate Pulsar Group advisory agreement**
+- **Solmate Pulsar $250000 monthly fee**
+- **Solmate Pulsar fee suspended**
+- **Solmate related party adviser**
+
+Target: `case-solmate-strategic-advisors-pulsar.html`.
+
+Commercial angle: provider status and fee status are separate fields. `ACTIVE + FEE PAUSED` is not `TERMINATED`, and an anniversary-based AUM fee cannot be dollarized from a nearby holdings snapshot without freezing the contractual measurement date and valuation method.
+
 ### TON Strategy / Kingsway — market-cap denominator, payment stop and termination
 
 TON Strategy supplies a realized-exit and denominator-control case: a related-party adviser with a $3M setup fee, 2% annual fee on fully diluted market capitalization and 20-year initial term. The company stopped monthly payments in March 2026, attempted settlement, then terminated without settlement on Aug. 10 while both sides reserved rights.
@@ -184,6 +202,12 @@ Commercial angle: this is not just a termination query. It is a Board / CFO life
   - Term / exit: ten-year exclusive manager mandate; ordinary company exit tied to ending LTC Strategy; present-value remaining-term fee formula.
   - Current hook: March and July 2026 disclosures continued to describe active GSR treasury management.
 
+- **Solmate / Strategic Advisors + Pulsar** → `case-solmate-strategic-advisors-pulsar.html`
+  - Queries: `Solmate Strategic Advisor Agreement`, `Brera Solmate strategic advisor fee`, `Solmate 1% SOL AUM fee`, `Solmate advisor warrants`, `Solmate Pulsar Group agreement`, `Solmate Pulsar fee suspended`.
+  - Adviser economics: 1.00% annual SOL AUM up to $1B + 0.50% above $1B, annual anniversary measurement, ten-year term and multiple warrant families.
+  - Separate Pulsar layer: $250k monthly fee; payment and accrual suspended in April 2026 while the remaining agreement stayed in force.
+  - Current hook: first annual AUM-fee window falls in September 2026; later disclosures show adviser/Board/executive overlap and agreement-specific operational-currentness questions.
+
 - **TON Strategy / Kingsway** → `case-ton-strategy-kingsway.html`
   - Queries: `TON Strategy Kingsway advisory agreement`, `TON Strategy Kingsway fee`, `TONX Kingsway agreement`, `TON Strategy 2% market cap fee`, `TON Strategy Kingsway termination`, `TON Strategy unpaid advisory fees`.
   - Starting economics: $3M setup fee + 2% annual fee on fully diluted issuer market capitalization; 20-year term; related-party adviser.
@@ -249,7 +273,7 @@ Existing long-tail:
 - Axe Compute / DNA provider agreement → `case-axe-dna.html`
 - Nuvve / DeFi HYPE strategy abandonment → `case-nuvve-defi-hype.html`
 - FG Nexus / Galaxy strategy exit → `case-fg-nexus-galaxy.html`
-- Pineapple / Canary + Monarq split manager stack → `case-pineapple-canary-monarq.html`
+- Pineapple / Canary + Monarq + Innovating Capital provider-stack currentness → `case-pineapple-canary-monarq.html`
 - SkyAI / Sol Edge fee reset and 20-year exit exposure → `case-skyai-sol-edge.html`
 
 ## Investigation queue
@@ -257,8 +281,10 @@ Existing long-tail:
 Prioritize:
 - Fresh provider amendments / replacements in September 2026 filings where economics change.
 - Live contracts with accrued-but-unpaid management fees, disputed invoices or payment-status changes.
+- Active contracts with **fee paused / accrual paused** status that could be mistaken for termination — Solmate / Pulsar is now an anchor.
 - Same-provider / different-client controls where the headline rate is similar but payment medium, term or exit mechanics differ — Lite Strategy / GSR versus Upexi / GSR is now an anchor.
 - Multi-provider stacks where one layer has governance rights over another provider — SUI Group / Karatage + Galaxy is now an anchor.
+- Provider stacks where a later Treasury Reserve Policy / adviser layer appears without clear termination of earlier provider families — Pineapple is now an anchor.
 - Provider exits where contractual liquidated-damages exposure can be compared with the realized settlement amount — Forum / Electric Treasury Edge is an anchor.
 - Provider exits with realized settlement consideration, warrant/equity modification and internalization — BNB Plus / Cypress is an anchor.
 - Agreement stacks where a legacy consultant and new adviser / RIA layer coexist or overlap.
