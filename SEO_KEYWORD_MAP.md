@@ -80,6 +80,22 @@ Target: `case-webus-samara-alpha.html`.
 
 Important currentness rule: the 2025 filing states that the agreement becomes effective only upon actual asset transfer and that no assets had been transferred or committed as of execution / announcement. Webus later renamed itself Wetour Robotics Limited. Do not infer that the mandate became funded or operative without later primary-source evidence of the Asset Transfer Date, amendment or termination.
 
+### Forum Markets / Electric Treasury Edge — contractual exit formula versus realized payment
+
+Forum Markets, formerly ETHZilla, supplies a clean realized-exit control. Its amended discretionary ETH asset-management agreement disclosed a **2% annual asset-based fee**, **$2M annual minimum**, five-year initial term and an **85% remaining-compensation liquidated-damages formula** for specified early company termination. The relationship was mutually terminated without cause on May 29, 2026 after a change in ETH deployment strategy; the June 2026 10-Q says the company paid **$1.5M** in full satisfaction of outstanding fees, expenses and an agreed portion of liquidated damages.
+
+Long-tail cluster:
+- **Forum Markets Electric Treasury Edge agreement**
+- **ETHZilla Electric Treasury Edge management fee**
+- **Forum Markets asset manager termination**
+- **Electric Treasury Edge liquidated damages**
+- **ETHZilla 2% management fee $2 million minimum**
+- **Forum Markets $1.5 million termination payment**
+
+Target: `case-forum-electric-treasury-edge.html`.
+
+Commercial angle: contract formula and realized settlement must be stored separately. A Board or CFO decision record needs both the original exit exposure and the amount ultimately negotiated and paid.
+
 ### BNB Plus / Cypress — related-party provider exit to internalization
 
 The July / August 2026 BNB Plus record supplies a clean realized-outcome cluster: a related-party discretionary manager plus strategic adviser moved from recurring AUM / incentive / monthly adviser / warrant economics into a Termination, Standstill and Mutual Release Agreement, cash + preferred-share settlement, warrant rescission / modification, Board / CIO changes and fully in-house treasury execution.
@@ -104,6 +120,12 @@ Commercial angle: this is not just a termination query. It is a Board / CFO life
 - **CEA / BNC / 10X** → `case-bnc-10x.html`
   - Queries: `CEA 10X asset management agreement`, `CEA 10X management fee`, `CEA 10X litigation`, `CEA 10X unpaid management fees`, `CEA 10X 20 year agreement`, `CEA 10X liquidated damages`.
   - Current hook: September 11, 2026 Form 10-Q; filing describes a flat 1.4% fee, 20-year term through 2045, $1.1m quarterly management expense, $1.4m accrued unpaid fees and pending litigation.
+
+- **Forum Markets / Electric Treasury Edge** → `case-forum-electric-treasury-edge.html`
+  - Queries: `Forum Markets Electric Treasury Edge agreement`, `ETHZilla Electric Treasury Edge management fee`, `Forum Markets asset manager termination`, `Electric Treasury Edge liquidated damages`, `Forum Markets 1.5 million termination payment`.
+  - Starting economics: 2% annual asset-based fee, $2M annual minimum, five-year initial term, governance-heavy no-cause exit and 85% remaining-compensation liquidated-damages language.
+  - Realized outcome: mutual no-cause termination May 29, 2026; $1.5M paid in June for outstanding fees / expenses plus an agreed portion of liquidated damages.
+  - Commercial trigger: actual settlement versus contractual formula, provider exit and post-termination responsibility.
 
 - **BNB Plus / Cypress** → `case-bnb-plus-cypress.html`
   - Queries: `BNB Plus Cypress settlement`, `BNB Plus Cypress management fee`, `BNB Plus Cypress asset management agreement`, `BNB Plus internalized BNB treasury`, `Applied DNA Cypress digital assets services agreement`.
@@ -164,7 +186,8 @@ Existing long-tail:
 Prioritize:
 - Fresh provider amendments / replacements in September 2026 filings where economics change.
 - Live contracts with accrued-but-unpaid management fees, disputed invoices or payment-status changes.
-- Provider exits with realized settlement consideration, warrant/equity modification and internalization — BNB Plus / Cypress is now the anchor control.
+- Provider exits where contractual liquidated-damages exposure can be compared with the realized settlement amount — Forum / Electric Treasury Edge is now a clean anchor.
+- Provider exits with realized settlement consideration, warrant/equity modification and internalization — BNB Plus / Cypress is an anchor control.
 - Agreement stacks where a legacy consultant and new adviser / RIA layer coexist or overlap.
 - Related-party manager structures where the provider also holds issuer equity or a Board relationship.
 - Clean same-role discretionary mandates that strengthen the comparison set.
