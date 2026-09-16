@@ -8,6 +8,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: indexnow-main
+  cancel-in-progress: true
+
 jobs:
   submit:
     runs-on: ubuntu-latest
@@ -17,8 +21,8 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Wait for GitHub Pages deployment
-        run: sleep 90
+      - name: Allow Pages edge cache to catch up
+        run: sleep 15
 
       - name: Submit changed URLs to IndexNow
         env:
@@ -48,13 +52,12 @@ jobs:
                   pass
               if attempt == 4:
                   raise SystemExit(f"IndexNow key preflight failed: {key_url}")
-              time.sleep(30)
+              time.sleep(15)
 
           before = os.environ.get('GITHUB_EVENT_BEFORE', '')
           sha = os.environ.get('GITHUB_SHA', 'HEAD')
           urls = []
 
-          # On normal pushes, submit only changed public HTML/XML/TXT endpoints.
           if before and set(before) != {'0'}:
               try:
                   changed = subprocess.check_output(
@@ -78,7 +81,6 @@ jobs:
                   sitemap = r.read().decode('utf-8')
               urls = re.findall(r'<loc>(.*?)</loc>', sitemap)
 
-          # Keep only this host and de-duplicate while preserving order.
           clean = []
           seen = set()
           for u in urls:
