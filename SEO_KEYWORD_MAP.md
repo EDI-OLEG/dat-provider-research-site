@@ -1,6 +1,6 @@
 # DAT Provider Research — SEO Query & Intent Map
 
-Updated: 2026-09-16
+Updated: 2026-09-17
 
 ## Standing project rule
 
@@ -102,7 +102,7 @@ Current hook: 1.75% AUM is paid in shares/pre-funded warrants, sits beside separ
 
 Commercial angle: an apparently identical percentage is not economically identical when payment medium, dilution, term and exit differ.
 
-### Solmate / Strategic Advisors + Pulsar — anniversary measurement plus pause-to-termination
+### Solmate / Strategic Advisors + Pulsar — effective-date conflict plus pause-to-termination
 
 Target: `case-solmate-strategic-advisors-pulsar.html`
 
@@ -116,11 +116,11 @@ Queries:
 - `Solmate Pulsar termination`
 - `Solmate related party adviser`
 
-Strategic-adviser layer: ten-year agreement, aggregate annual compensation of 1.00% of SOL AUM up to $1B and 0.50% above $1B, plus multiple warrant families. The agreement is effective September 18, 2025, so the first anniversary measurement date is **September 18, 2026**. As of September 16, the measurement event has not yet occurred; do not dollarize the fee from a nearby holdings snapshot.
+Strategic-adviser layer: ten-year agreement, aggregate annual compensation of 1.00% of SOL AUM up to $1B and 0.50% above $1B, plus multiple warrant families. The filed agreement defines Effective Date as the PIPE Closing Date under Securities Purchase Agreements dated September 18, 2025. The issuer disclosed that the PIPE closed **September 23, 2025**, while some later issuer summaries refer to September 18. Preserve that conflict. Contract text plus the closing disclosure point to **September 23, 2026 as the stronger first-anniversary candidate**, but do not present either date as realized fee evidence without a later primary-source accrual/payment record.
 
 Pulsar layer: separate related-party agreement at $250,000 per month. Payment and accrual were suspended April 24 while the rest of the agreement remained in force, but that was only an intermediate state. The parties later mutually terminated the Pulsar agreement effective **July 29, 2026 without further cost or obligation**.
 
-Commercial angle: currentness is a version chain. **ACTIVE — FEE PAUSED** can be historically correct and later become stale after termination. Keep the Pulsar agreement family separate from the Strategic Advisor Agreement.
+Commercial angle: currentness is a version chain and defined terms control date-sensitive economics. **ACTIVE — FEE PAUSED** can be historically correct and later become stale after termination; an issuer summary can also conflict with the filed operative definition. Keep the Pulsar agreement family separate from the Strategic Advisor Agreement.
 
 ### SkyAI / Sol Edge — fee schedule effective, post-change realization not yet observed
 
@@ -247,6 +247,7 @@ Prioritize:
 - Fee schedules whose effective date has passed but whose first post-change accrual/payment is not yet publicly observed.
 - Paused or waived compensation rights that can reactivate or later terminate.
 - Anniversary-based compensation where a nearby holdings snapshot can be mistaken for the contractual measurement.
+- Effective-date conflicts where issuer summaries diverge from the filed defined term or closing event.
 - Same-provider/different-client controls.
 - Multi-provider stacks with governance rights crossing agreement families.
 - Exit formulas versus realized settlements.
@@ -264,9 +265,10 @@ Before publishing or refreshing any page:
 1. Recheck the latest primary-source filing, not only the agreement execution filing.
 2. Store status by agreement family; never collapse manager, adviser, staking, service and governance-rights agreements into one state.
 3. Separate **contract effective date** from **first observed accrual / invoice / payment**.
-4. Separate **strategy status** from **contract status** and **funded-asset status**.
-5. Treat fee pause, compensation waiver, revocable waiver, non-payment, non-renewal and termination as distinct states.
-6. If a later primary source supersedes an earlier status, update the case page, index pages, outcomes matrix and this map together.
+4. Where issuer summaries conflict with an operative contractual definition, preserve the conflict and anchor the analysis to the filed defined term plus the triggering event.
+5. Separate **strategy status** from **contract status** and **funded-asset status**.
+6. Treat fee pause, compensation waiver, revocable waiver, non-payment, non-renewal and termination as distinct states.
+7. If a later primary source supersedes an earlier status, update the case page, index pages, outcomes matrix and this map together.
 
 ## Page map
 
